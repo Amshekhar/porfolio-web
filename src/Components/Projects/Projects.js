@@ -3,6 +3,7 @@ import { ProjectCard } from "../ProductCard/ProductCard";
 import projImg1 from "../../Assetes/img/easemytrip.png";
 import projImg2 from "../../Assetes/img/croma.png";
 import projImg3 from "../../Assetes/img/sidcup.png";
+import music from "../../Assetes/img/Music-app-with-nextjs.png";
 import colorSharp2 from "../../Assetes/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -25,11 +26,11 @@ export const Projects = () => {
             description: "A Golf Website Clone",
             imgUrl: projImg3,
         },
-        // {
-        //   title: "Business Startup",
-        //   description: "Design & Development",
-        //   imgUrl: projImg1,
-        // },
+        {
+          title: "Music",
+          description: "Learn basic of next.js/Typescript and use of an animated components library",
+          imgUrl: music,
+        },
         // {
         //   title: "Business Startup",
         //   description: "Design & Development",
